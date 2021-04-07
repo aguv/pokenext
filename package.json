@@ -8,8 +8,21 @@
     "start": "next start"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@prisma/client": "^2.20.0",
+    "axios": "^0.21.1",
     "next": "10.0.9",
+    "next-auth": "^3.13.3",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "tailwindcss-ripple": "^0.6.0"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.8",
+    "postcss-preset-env": "^6.7.0",
+    "prisma": "^2.19.0",
+    "tailwindcss": "^2.0.4"
   }
 }
